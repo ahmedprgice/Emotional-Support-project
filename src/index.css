@@ -176,6 +176,27 @@
   }
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7c3aed, #9333ea);
+  border-radius: 10px;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #6d28d9, #7e22ce);
+}
+
 @layer base {
   *, :after, :before, ::backdrop {
     box-sizing: border-box;
